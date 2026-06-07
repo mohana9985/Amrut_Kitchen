@@ -1,0 +1,1302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Full menu at Amrut Kitchen, Vijayawada – soups, starters, biryanis, curries, fried rice, Indian bread, tandoori, beverages and buffet options." />
+  <meta property="og:title" content="Menu – Amrut Kitchen" />
+  <meta property="og:description" content="Explore our full menu: soups, starters, biryanis, curries, fried rice, tandoori, and more." />
+  <meta property="og:type" content="website" />
+  <title>Menu – Amrut Kitchen</title>
+  <link rel="icon" type="image/png" href="assets/images/logos/logo-transparent.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Forum&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <style>
+    /* ── PAGE TITLE ── */
+    .page-title { text-align: center; padding: 40px 20px 10px; }
+    .page-title h1 { font-family: 'Open Sans', sans-serif; font-size: 28px; font-weight: 400; letter-spacing: 6px; text-transform: uppercase; color: #ffffff; }
+
+    /* ── MENU WRAPPER ── */
+    .menu-wrapper { max-width: 920px; margin: 0 auto; padding: 20px 20px 60px; }
+
+    .menu-section { margin-bottom: 40px; }
+
+    .section-header { text-align: center; margin-bottom: 16px; padding-top: 30px; }
+    .section-header h2 { font-family: 'Open Sans', sans-serif; font-size: 18px; font-weight: 600; letter-spacing: 3px; text-transform: uppercase; color: #ffffff; margin-bottom: 4px; }
+    .section-header .takeaway { font-size: 11px; font-weight: 400; color: #cccccc; letter-spacing: 1px; }
+
+    /* ── PRODUCT CARD GRID ── */
+    .items-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; }
+
+    .menu-item { background: #111111; border: 1px solid #222222; border-radius: 4px; overflow: hidden; display: flex; flex-direction: column; transition: border-color 0.2s, transform 0.15s; cursor: default; }
+    .menu-item:hover { border-color: #bf9515; transform: translateY(-2px); }
+
+    .item-thumb { width: 100%; height: 160px; object-fit: cover; display: block; }
+    .item-thumb-placeholder { width: 100%; height: 160px; background: #1a1a1a; }
+
+    .item-info { padding: 10px 12px 12px; display: flex; flex-direction: column; gap: 6px; flex: 1; }
+    .item-name { font-size: 12px; font-weight: 400; color: #d0d0d0; line-height: 1.4; }
+    .item-price { font-size: 15px; font-weight: 600; color: #bf9515; margin-top: auto; }
+
+    /* ── BUFFET SECTION ── */
+    .buffet-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1px; background: #1e1e1e; border: 1px solid #1e1e1e; }
+    .buffet-item { background: #000; padding: 20px 12px; text-align: center; }
+    .buffet-item .buffet-name { font-size: 13px; font-weight: 400; color: #ffffff; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 8px; }
+    .buffet-item .buffet-price { font-size: 20px; font-weight: 600; color: #bf9515; }
+    .buffet-item .buffet-price span { font-size: 12px; font-weight: 400; color: #cccccc; display: block; }
+
+    @media (max-width: 960px) { .items-grid { grid-template-columns: repeat(3, 1fr); } }
+    @media (max-width: 700px) { .items-grid { grid-template-columns: repeat(2, 1fr); } .buffet-grid { grid-template-columns: repeat(2, 1fr); } }
+    @media (max-width: 420px) { .item-thumb { height: 110px; } }
+  </style>
+</head>
+<body>
+
+<!-- HEADER -->
+<header>
+  <div class="brand">
+    <img class="brand-logo" src="assets/images/home/chef-logo.jpg" alt="Amrut Kitchen Chef" />
+    <span class="brand-name">amrut kitchen</span>
+  </div>
+  <p class="tagline">We Prepare Food For The Gods</p>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="menu.html" class="active">Menu</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+    </ul>
+  </nav>
+</header>
+
+<!-- PAGE TITLE -->
+<div class="page-title"><h1>Menu</h1></div>
+
+<div class="menu-wrapper">
+
+  <!-- VEG SOUPS -->
+  <div class="menu-section">
+    <div class="section-header">
+      <h2>Veg Soups</h2>
+      <p class="takeaway">Take away +₹10/-</p>
+    </div>
+    <div class="items-grid">
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/veg-soups/sweet-corn-soup.jpg" alt="Sweet Corn Soup" />
+        <div class="item-info">
+          <span class="item-name">Sweet Corn Soup</span>
+          <span class="item-price">₹100</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/veg-soups/veg-manchow-soup.jpg" alt="Veg Manchow Soup" />
+        <div class="item-info">
+          <span class="item-name">Veg Manchow Soup</span>
+          <span class="item-price">₹100</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/veg-soups/veg-hot-and-sour-soup.jpg" alt="Veg Hot and Sour" />
+        <div class="item-info">
+          <span class="item-name">Veg Hot &amp; Sour Soup</span>
+          <span class="item-price">₹100</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/veg-soups/lemon-coriander-soup.jpg" alt="Lemon Coriander Soup" />
+        <div class="item-info">
+          <span class="item-name">Lemon Coriander Soup</span>
+          <span class="item-price">₹100</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/veg-soups/cream-of-mushroom.jpg" alt="Cream of Mushroom" />
+        <div class="item-info">
+          <span class="item-name">Cream of Mushroom</span>
+          <span class="item-price">₹100</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/veg-soups/tomato-soup.jpg" alt="Tomato Soup" />
+        <div class="item-info">
+          <span class="item-name">Tomato Soup</span>
+          <span class="item-price">₹100</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- NON VEG SOUPS -->
+  <div class="menu-section">
+    <div class="section-header">
+      <h2>Non-Veg Soups</h2>
+      <p class="takeaway">Take away +₹15/-</p>
+    </div>
+    <div class="items-grid">
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/non-veg-soups/chicken-sweet-corn-soup.jpg" alt="Chicken Sweet Corn" />
+        <div class="item-info">
+          <span class="item-name">Chicken Sweet Corn</span>
+          <span class="item-price">₹125</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/non-veg-soups/chicken-manchow-soup.jpg" alt="Chicken Manchow" />
+        <div class="item-info">
+          <span class="item-name">Chicken Manchow</span>
+          <span class="item-price">₹125</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/non-veg-soups/chicken-hot-and-sour-soup.jpg" alt="Chicken Hot and Sour" />
+        <div class="item-info">
+          <span class="item-name">Chicken Hot &amp; Sour</span>
+          <span class="item-price">₹125</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/non-veg-soups/cream-of-chicken-soup.jpg" alt="Cream of Chicken" />
+        <div class="item-info">
+          <span class="item-name">Cream of Chicken</span>
+          <span class="item-price">₹125</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- VEG STARTERS -->
+  <div class="menu-section">
+    <div class="section-header">
+      <h2>Veg Starters</h2>
+      <p class="takeaway">Take away +₹15/-</p>
+    </div>
+    <div class="items-grid">
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/veg-starters/veg-noodles.jpg" alt="Veg Noodles" />
+        <div class="item-info">
+          <span class="item-name">Veg Noodles</span>
+          <span class="item-price">₹100</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/veg-starters/schezwan-noodles.jpg" alt="Schezwan Noodles" />
+        <div class="item-info">
+          <span class="item-name">Schezwan Noodles</span>
+          <span class="item-price">₹150</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/veg-starters/french-fries.jpg" alt="French Fries" />
+        <div class="item-info">
+          <span class="item-name">French Fries</span>
+          <span class="item-price">₹100</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/veg-starters/onion-pakoda.jpg" alt="Onion Pakoda" />
+        <div class="item-info">
+          <span class="item-name">Onion Pakoda</span>
+          <span class="item-price">₹100</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/veg-starters/onion-rings.jpg" alt="Onion Rings" />
+        <div class="item-info">
+          <span class="item-name">Onion Rings</span>
+          <span class="item-price">₹100</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/veg-starters/veg-salad.jpg" alt="Veg Salad" />
+        <div class="item-info">
+          <span class="item-name">Veg Salad</span>
+          <span class="item-price">₹50</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/veg-starters/veg-manchuria.jpg" alt="Veg Manchuria" />
+        <div class="item-info">
+          <span class="item-name">Veg Manchuria</span>
+          <span class="item-price">₹150</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/veg-starters/crispy-veg.jpg" alt="Crispy Veg" />
+        <div class="item-info">
+          <span class="item-name">Crispy Veg</span>
+          <span class="item-price">₹150</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/veg-starters/gobi-manchuria.jpg" alt="Gobi Manchuria" />
+        <div class="item-info">
+          <span class="item-name">Gobi Manchuria</span>
+          <span class="item-price">₹150</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/veg-starters/gobi-65.jpg" alt="Gobi 65" />
+        <div class="item-info">
+          <span class="item-name">Gobi 65</span>
+          <span class="item-price">₹150</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/veg-starters/baby-corn-manchuria.jpg" alt="Baby Corn Manchuria" />
+        <div class="item-info">
+          <span class="item-name">Baby Corn Manchuria</span>
+          <span class="item-price">₹150</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/veg-starters/baby-corn-65.jpg" alt="Baby Corn 65" />
+        <div class="item-info">
+          <span class="item-name">Baby Corn 65</span>
+          <span class="item-price">₹150</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/veg-starters/baby-corn-chilli.jpg" alt="Baby Corn Chilli" />
+        <div class="item-info">
+          <span class="item-name">Baby Corn Chilli</span>
+          <span class="item-price">₹150</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/veg-starters/crispy-baby-corn.jpg" alt="Crispy Baby Corn" />
+        <div class="item-info">
+          <span class="item-name">Crispy Baby Corn</span>
+          <span class="item-price">₹150</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/veg-starters/mushroom-manchuria.jpg" alt="Mushroom Manchuria" />
+        <div class="item-info">
+          <span class="item-name">Mushroom Manchuria</span>
+          <span class="item-price">₹150</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/veg-starters/mushroom-65.jpg" alt="Mushroom 65" />
+        <div class="item-info">
+          <span class="item-name">Mushroom 65</span>
+          <span class="item-price">₹150</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/veg-starters/mushroom-chilli.jpg" alt="Mushroom Chilli" />
+        <div class="item-info">
+          <span class="item-name">Mushroom Chilli</span>
+          <span class="item-price">₹150</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/veg-starters/malai-pakoda.jpg" alt="Malai Pakoda" />
+        <div class="item-info">
+          <span class="item-name">Malai Pakoda</span>
+          <span class="item-price">₹150</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/veg-starters/paneer-manchuria.jpg" alt="Paneer Manchuria" />
+        <div class="item-info">
+          <span class="item-name">Paneer Manchuria</span>
+          <span class="item-price">₹175</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/veg-starters/paneer-65.jpg" alt="Paneer 65" />
+        <div class="item-info">
+          <span class="item-name">Paneer 65</span>
+          <span class="item-price">₹175</span>
+        </div>
+      </div>
+      <div class="menu-item full-width">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/veg-starters/paneer-chilli.jpg" alt="Paneer Chilli" />
+        <div class="item-info">
+          <span class="item-name">Paneer Chilli</span>
+          <span class="item-price">₹175</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- NON VEG STARTERS -->
+  <div class="menu-section">
+    <div class="section-header">
+      <h2>Non-Veg Starters</h2>
+      <p class="takeaway">Take away +₹10/- &nbsp;|&nbsp; +₹15/-</p>
+    </div>
+    <div class="items-grid">
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/non-veg-starters/boiled-eggs.jpg" alt="Boiled Eggs" />
+        <div class="item-info">
+          <span class="item-name">Boiled Eggs</span>
+          <span class="item-price">₹30</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/non-veg-starters/masala-omelette.jpg" alt="Masala Omelette" />
+        <div class="item-info">
+          <span class="item-name">Masala Omelette</span>
+          <span class="item-price">₹80</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/non-veg-starters/egg-65.jpeg" alt="Egg 65" />
+        <div class="item-info">
+          <span class="item-name">Egg 65</span>
+          <span class="item-price">₹130</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/non-veg-starters/egg-chilli.jpg" alt="Chilli Egg" />
+        <div class="item-info">
+          <span class="item-name">Chilli Egg</span>
+          <span class="item-price">₹130</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/non-veg-starters/egg-manchuria.jpg" alt="Egg Manchuria" />
+        <div class="item-info">
+          <span class="item-name">Egg Manchuria</span>
+          <span class="item-price">₹130</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/non-veg-starters/egg-noodles.jpg" alt="Egg Noodles" />
+        <div class="item-info">
+          <span class="item-name">Egg Noodles</span>
+          <span class="item-price">₹130</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/non-veg-starters/chicken-noodles.jpg" alt="Chicken Noodles" />
+        <div class="item-info">
+          <span class="item-name">Chicken Noodles</span>
+          <span class="item-price">₹150</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/non-veg-starters/schezwan-chicken-noodles.jpg" alt="Schezwan Chicken Noodles" />
+        <div class="item-info">
+          <span class="item-name">Schezwan Chicken Noodles</span>
+          <span class="item-price">₹200</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/non-veg-starters/mixed-non-veg-noodles.jpg" alt="Mixed Non Veg Noodles" />
+        <div class="item-info">
+          <span class="item-name">Mixed Non Veg Noodles</span>
+          <span class="item-price">₹250</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/non-veg-starters/chilli-chicken.jpg" alt="Chilli Chicken" />
+        <div class="item-info">
+          <span class="item-name">Chilli Chicken</span>
+          <span class="item-price">₹200</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/non-veg-starters/pepper-chicken.jpg" alt="Pepper Chicken" />
+        <div class="item-info">
+          <span class="item-name">Pepper Chicken</span>
+          <span class="item-price">₹200</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/non-veg-starters/chicken-65.jpg" alt="Chicken 65" />
+        <div class="item-info">
+          <span class="item-name">Chicken 65</span>
+          <span class="item-price">₹200</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/non-veg-starters/chicken-manchuria.jpg" alt="Chicken Manchuria" />
+        <div class="item-info">
+          <span class="item-name">Chicken Manchuria</span>
+          <span class="item-price">₹200</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/non-veg-starters/chicken-555.jpg" alt="Chicken 555" />
+        <div class="item-info">
+          <span class="item-name">Chicken 555</span>
+          <span class="item-price">₹200</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/non-veg-starters/chicken-majestic.jpg" alt="Chicken Majestic" />
+        <div class="item-info">
+          <span class="item-name">Chicken Majestic</span>
+          <span class="item-price">₹200</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/non-veg-starters/rr-chicken.jpg" alt="RR Chicken" />
+        <div class="item-info">
+          <span class="item-name">RR Chicken</span>
+          <span class="item-price">₹200</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/non-veg-starters/crispy-chicken.jpg" alt="Crispy Chicken" />
+        <div class="item-info">
+          <span class="item-name">Crispy Chicken</span>
+          <span class="item-price">₹200</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/non-veg-starters/rajadhani-chicken.jpg" alt="Rajadhani Chicken" />
+        <div class="item-info">
+          <span class="item-name">Rajadhani Chicken</span>
+          <span class="item-price">₹200</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/non-veg-starters/dragon-chicken.jpg" alt="Dragon Chicken" />
+        <div class="item-info">
+          <span class="item-name">Dragon Chicken</span>
+          <span class="item-price">₹200</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/non-veg-starters/loose-chicken.jpg" alt="Loose Chicken" />
+        <div class="item-info">
+          <span class="item-name">Loose Chicken</span>
+          <span class="item-price">₹200</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/non-veg-starters/ghicken-garlic_ginger.jpg" alt="Chicken Garlic Ginger" />
+        <div class="item-info">
+          <span class="item-name">Chicken Garlic / Ginger</span>
+          <span class="item-price">₹200</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/non-veg-starters/schezwan-chicken.jpg" alt="Schezwan Chicken" />
+        <div class="item-info">
+          <span class="item-name">Schezwan Chicken</span>
+          <span class="item-price">₹200</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/non-veg-starters/cashew-chicken.jpg" alt="Cashew Chicken" />
+        <div class="item-info">
+          <span class="item-name">Cashew Chicken</span>
+          <span class="item-price">₹250</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/non-veg-starters/chicken-drum-sticks.jpg" alt="Chicken Drumsticks" />
+        <div class="item-info">
+          <span class="item-name">Chicken Drumsticks – 4 pcs</span>
+          <span class="item-price">₹250</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/non-veg-starters/chicken-wings.jpg" alt="Chicken Wings" />
+        <div class="item-info">
+          <span class="item-name">Chicken Wings – 5 pcs</span>
+          <span class="item-price">₹250</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/non-veg-starters/chicken-lollipops.jpg" alt="Chicken Lollipop" />
+        <div class="item-info">
+          <span class="item-name">Chicken Lollipop – 5 pcs</span>
+          <span class="item-price">₹250</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/non-veg-starters/mutton-keema-balls.jpg" alt="Mutton Keema Balls" />
+        <div class="item-info">
+          <span class="item-name">Mutton Keema Balls</span>
+          <span class="item-price">₹300</span>
+        </div>
+      </div>
+      <div class="menu-item full-width">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/non-veg-starters/loose-prawn.jpg" alt="Loose Prawn" />
+        <div class="item-info">
+          <span class="item-name">Loose Prawn</span>
+          <span class="item-price">₹275</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SEAFOOD STARTERS -->
+  <div class="menu-section">
+    <div class="section-header">
+      <h2>Seafood Starters</h2>
+      <p class="takeaway">Take away +₹15/-</p>
+    </div>
+    <div class="items-grid">
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/seafood-starters/appolo-crispy-fish.jpg" alt="Appolo Crispy Fish" />
+        <div class="item-info">
+          <span class="item-name">Appolo Crispy Fish</span>
+          <span class="item-price">₹275</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/seafood-starters/appolo-chilli-fish.jpg" alt="Chilli Appolo Fish" />
+        <div class="item-info">
+          <span class="item-name">Chilli Appolo Fish</span>
+          <span class="item-price">₹275</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/seafood-starters/appolo-fish-fry.jpg" alt="Appolo Fish Fry" />
+        <div class="item-info">
+          <span class="item-name">Appolo Fish Fry</span>
+          <span class="item-price">₹275</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/seafood-starters/tawa-fish-fry.jpg" alt="Tawa Fish Fry" />
+        <div class="item-info">
+          <span class="item-name">Tawa Fish Fry – 4 pcs</span>
+          <span class="item-price">₹275</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/seafood-starters/chilli-prawn.jpg" alt="Chilli Prawn" />
+        <div class="item-info">
+          <span class="item-name">Chilli Prawn</span>
+          <span class="item-price">₹275</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/seafood-starters/prawn-65.jpg" alt="Prawn 65" />
+        <div class="item-info">
+          <span class="item-name">Prawn 65</span>
+          <span class="item-price">₹275</span>
+        </div>
+      </div>
+      <div class="menu-item full-width">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/seafood-starters/loose-prawn.jpg" alt="Loose Prawn" />
+        <div class="item-info">
+          <span class="item-name">Loose Prawn</span>
+          <span class="item-price">₹275</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- BIRYANIS -->
+  <div class="menu-section">
+    <div class="section-header">
+      <h2>Biryanis</h2>
+      <p class="takeaway">Take away +₹20/- &nbsp;|&nbsp; +₹25/- &nbsp;|&nbsp; +₹50/-</p>
+    </div>
+    <div class="items-grid">
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/biryanis/chicken-dum-biryani.jpg" alt="Chicken Dum Biryani" />
+        <div class="item-info">
+          <span class="item-name">Chicken Dum Biryani – 3 pcs</span>
+          <span class="item-price">₹225</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/biryanis/chicken-fry-biryani.jpg" alt="Chicken Fry Biryani" />
+        <div class="item-info">
+          <span class="item-name">Chicken Fry Biryani</span>
+          <span class="item-price">₹250</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/biryanis/sp-chicken-biryani.jpg" alt="SP Chicken Biryani" />
+        <div class="item-info">
+          <span class="item-name">SP Chicken Biryani</span>
+          <span class="item-price">₹275</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/biryanis/chicken-wings-biryani.jpg" alt="Chicken Wings Biryani" />
+        <div class="item-info">
+          <span class="item-name">Chicken Wings Biryani – 4 pcs</span>
+          <span class="item-price">₹250</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/biryanis/mutton-dum-biryani.jpg" alt="Mutton Dum Biryani" />
+        <div class="item-info">
+          <span class="item-name">Mutton Dum Biryani</span>
+          <span class="item-price">₹350</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/biryanis/mutton-fry-piece-biryani.jpg" alt="Mutton Fry Biryani" />
+        <div class="item-info">
+          <span class="item-name">Mutton Fry Biryani</span>
+          <span class="item-price">₹400</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/biryanis/mutton-dum-biryani.jpg" alt="SP Mutton Biryani" />
+        <div class="item-info">
+          <span class="item-name">SP Mutton Biryani</span>
+          <span class="item-price">₹450</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/biryanis/mutton-keema-biryani.jpg" alt="Mutton Keema Biryani" />
+        <div class="item-info">
+          <span class="item-name">Mutton Keema Biryani</span>
+          <span class="item-price">₹500</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/biryanis/muttomn-paya.jpg" alt="Mutton Paya" />
+        <div class="item-info">
+          <span class="item-name">Mutton Paya</span>
+          <span class="item-price">₹300</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/biryanis/fish-biryani.jpg" alt="Fish Biryani" />
+        <div class="item-info">
+          <span class="item-name">Fish Biryani</span>
+          <span class="item-price">₹300</span>
+        </div>
+      </div>
+      <div class="menu-item full-width">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/biryanis/prawn-biryani.jpg" alt="Prawn Biryani" />
+        <div class="item-info">
+          <span class="item-name">Prawn Biryani</span>
+          <span class="item-price">₹350</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- VEG CURRIES -->
+  <div class="menu-section">
+    <div class="section-header">
+      <h2>Veg Curries</h2>
+      <p class="takeaway">Take away +₹15/-</p>
+    </div>
+    <div class="items-grid">
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/veg-curries/dal-fry.jpg" alt="Dal Fry" />
+        <div class="item-info">
+          <span class="item-name">Dal Fry</span>
+          <span class="item-price">₹150</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/veg-curries/plain-palak.jpg" alt="Plain Palak" />
+        <div class="item-info">
+          <span class="item-name">Plain Palak</span>
+          <span class="item-price">₹150</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/veg-curries/palak-paneer.jpg" alt="Palak Paneer" />
+        <div class="item-info">
+          <span class="item-name">Palak Paneer</span>
+          <span class="item-price">₹150</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/veg-curries/chana-masala-curry.jpg" alt="Chana Masala" />
+        <div class="item-info">
+          <span class="item-name">Chana Masala</span>
+          <span class="item-price">₹150</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/veg-curries/methi-cheman.jpg" alt="Methi Cheman" />
+        <div class="item-info">
+          <span class="item-name">Methi Cheman</span>
+          <span class="item-price">₹150</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/veg-curries/aloo-matar-curry.jpg" alt="Aloo Matar" />
+        <div class="item-info">
+          <span class="item-name">Aloo Matar</span>
+          <span class="item-price">₹150</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/veg-curries/tomato-cashew-curry.jpg" alt="Tomato Cashew" />
+        <div class="item-info">
+          <span class="item-name">Tomato Cashew Curry</span>
+          <span class="item-price">₹150</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/veg-curries/kadai-veg-curry.jpg" alt="Kadai Veg" />
+        <div class="item-info">
+          <span class="item-name">Kadai Veg</span>
+          <span class="item-price">₹150</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/veg-curries/mixed-veg-currry.jpg" alt="Mixed Veg Curry" />
+        <div class="item-info">
+          <span class="item-name">Mixed Veg Curry</span>
+          <span class="item-price">₹150</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/veg-curries/malai-pakoda.jpg" alt="Malai Pakoda" />
+        <div class="item-info">
+          <span class="item-name">Malai Pakoda</span>
+          <span class="item-price">₹175</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- NON VEG CURRIES -->
+  <div class="menu-section">
+    <div class="section-header">
+      <h2>Non-Veg Curries</h2>
+      <p class="takeaway">Take away +₹15/-</p>
+    </div>
+    <div class="items-grid">
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/non-veg-curries/egg-curry.jpg" alt="Egg Curry" />
+        <div class="item-info">
+          <span class="item-name">Egg Curry</span>
+          <span class="item-price">₹150</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/non-veg-curries/methi-chicken-curry.jpg" alt="Methi Chicken Curry" />
+        <div class="item-info">
+          <span class="item-name">Methi Chicken Curry</span>
+          <span class="item-price">₹225</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/non-veg-curries/butter-chicken-curry.jpg" alt="Butter Chicken Curry" />
+        <div class="item-info">
+          <span class="item-name">Butter Chicken Curry</span>
+          <span class="item-price">₹225</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/non-veg-curries/kadai-chicken-curry.jpg" alt="Kadai Chicken Curry" />
+        <div class="item-info">
+          <span class="item-name">Kadai Chicken Curry</span>
+          <span class="item-price">₹225</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/non-veg-curries/afghani-chicken-curry.jpg" alt="Afghani Chicken Curry" />
+        <div class="item-info">
+          <span class="item-name">Afghani Chicken Curry</span>
+          <span class="item-price">₹225</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/non-veg-curries/maharani-chicken.jpg" alt="Maharani Chicken" />
+        <div class="item-info">
+          <span class="item-name">Maharani Chicken</span>
+          <span class="item-price">₹225</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/non-veg-curries/kolhapuri-chicken--curry.jpg" alt="Kolhapuri Chicken" />
+        <div class="item-info">
+          <span class="item-name">Kolhapuri Chicken Curry</span>
+          <span class="item-price">₹225</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/non-veg-curries/dum-chicken-curry.jpg" alt="Dum Chicken Curry" />
+        <div class="item-info">
+          <span class="item-name">Dum Chicken Curry</span>
+          <span class="item-price">₹225</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/non-veg-curries/malai-chicken.jpg" alt="Malai Chicken" />
+        <div class="item-info">
+          <span class="item-name">Malai Chicken</span>
+          <span class="item-price">₹225</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/non-veg-curries/punjabi-chicken.jpg" alt="Punjabi Chicken" />
+        <div class="item-info">
+          <span class="item-name">Punjabi Chicken</span>
+          <span class="item-price">₹225</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/non-veg-curries/cashew-chicken-curry.jpg" alt="Kaju Chicken Curry" />
+        <div class="item-info">
+          <span class="item-name">Kaju Chicken Curry</span>
+          <span class="item-price">₹225</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/non-veg-curries/sp-chicken-curry.jpg" alt="SP Chicken Curry" />
+        <div class="item-info">
+          <span class="item-name">SP Chicken Curry</span>
+          <span class="item-price">₹225</span>
+        </div>
+      </div>
+      <div class="menu-item full-width">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/non-veg-curries/lemon-chicken.jpg" alt="Lemon Chicken" />
+        <div class="item-info">
+          <span class="item-name">Lemon Chicken</span>
+          <span class="item-price">₹225</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- RICE & FRIED RICE -->
+  <div class="menu-section">
+    <div class="section-header">
+      <h2>Rice &amp; Fried Rice</h2>
+      <p class="takeaway">Price Per Plate</p>
+    </div>
+    <div class="items-grid">
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/fried-rice/white-rice.jpg" alt="Plain Rice" />
+        <div class="item-info">
+          <span class="item-name">Plain Rice</span>
+          <span class="item-price">₹50</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/fried-rice/jeera-rice.jpg" alt="Jeera Rice" />
+        <div class="item-info">
+          <span class="item-name">Jeera Rice</span>
+          <span class="item-price">₹125</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/fried-rice/tomato-rice.jpg" alt="Tomato Rice" />
+        <div class="item-info">
+          <span class="item-name">Tomato Rice</span>
+          <span class="item-price">₹125</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/fried-rice/cord-rice.jpg" alt="Curd Rice" />
+        <div class="item-info">
+          <span class="item-name">Curd Rice</span>
+          <span class="item-price">₹100</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/fried-rice/veg-fried-rice.jpg" alt="Veg Fried Rice" />
+        <div class="item-info">
+          <span class="item-name">Veg Fried Rice</span>
+          <span class="item-price">₹125</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/fried-rice/schezwan-fried-rice.jpg" alt="Schezwan Fried Rice" />
+        <div class="item-info">
+          <span class="item-name">Schezwan Fried Rice</span>
+          <span class="item-price">₹150</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/fried-rice/mushroom-fried-rice.jpg" alt="Mushroom Fried Rice" />
+        <div class="item-info">
+          <span class="item-name">Mushroom Fried Rice</span>
+          <span class="item-price">₹150</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/fried-rice/paneer-fried-rice.jpg" alt="Paneer Fried Rice" />
+        <div class="item-info">
+          <span class="item-name">Paneer Fried Rice</span>
+          <span class="item-price">₹175</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/fried-rice/egg-fried-rice.jpg" alt="Egg Fried Rice" />
+        <div class="item-info">
+          <span class="item-name">Egg Fried Rice</span>
+          <span class="item-price">₹150</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/fried-rice/schezwan-egg-fried-rice.jpg" alt="Schezwan Egg Fried Rice" />
+        <div class="item-info">
+          <span class="item-name">Schezwan Egg Fried Rice</span>
+          <span class="item-price">₹175</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/fried-rice/chicken-fried-rice.jpg" alt="Chicken Fried Rice" />
+        <div class="item-info">
+          <span class="item-name">Chicken Fried Rice</span>
+          <span class="item-price">₹170</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/fried-rice/schezwan-chicken-fried-rice.jpg" alt="Schezwan Chicken Fried Rice" />
+        <div class="item-info">
+          <span class="item-name">Schezwan Chicken Fried Rice</span>
+          <span class="item-price">₹180</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/fried-rice/mixed-non-veg-fried-rice.jpg" alt="Mixed Non Veg Fried Rice" />
+        <div class="item-info">
+          <span class="item-name">Mixed Non Veg Fried Rice</span>
+          <span class="item-price">₹200</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/fried-rice/cashew-fried-rice.jpg" alt="Cashew Fried Rice" />
+        <div class="item-info">
+          <span class="item-name">Cashew Fried Rice</span>
+          <span class="item-price">₹150</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/fried-rice/mixed-veg-fried-rice.jpg" alt="Mixed Veg Fried Rice" />
+        <div class="item-info">
+          <span class="item-name">Mixed Veg Fried Rice</span>
+          <span class="item-price">₹150</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/fried-rice/prawn-fried-rice.jpg" alt="Prawn Fried Rice" />
+        <div class="item-info">
+          <span class="item-name">Prawn Fried Rice</span>
+          <span class="item-price">₹250</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- INDIAN BREAD -->
+  <div class="menu-section">
+    <div class="section-header">
+      <h2>Indian Bread</h2>
+      <p class="takeaway">Price Per Piece</p>
+    </div>
+    <div class="items-grid">
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/indian-bread/soft-pulka.png" alt="Pulka" />
+        <div class="item-info">
+          <span class="item-name">Pulka</span>
+          <span class="item-price">₹15</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/indian-bread/indian-chapathi.jpg" alt="Chapati" />
+        <div class="item-info">
+          <span class="item-name">Chapati</span>
+          <span class="item-price">₹30</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/indian-bread/parotta.jpg" alt="Parota" />
+        <div class="item-info">
+          <span class="item-name">Parota</span>
+          <span class="item-price">₹30</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/indian-bread/lachha-paratha.jpg" alt="Lachha Paratha" />
+        <div class="item-info">
+          <span class="item-name">Lachha Paratha</span>
+          <span class="item-price">₹40</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/indian-bread/aloo-paratha.jpg" alt="Aloo Paratha" />
+        <div class="item-info">
+          <span class="item-name">Aloo Paratha</span>
+          <span class="item-price">₹50</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/indian-bread/rumal-roti.jpg" alt="Rumal Roti" />
+        <div class="item-info">
+          <span class="item-name">Rumal Roti</span>
+          <span class="item-price">₹40</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- TANDOORI -->
+  <div class="menu-section">
+    <div class="section-header">
+      <h2>Tandoori</h2>
+      <p class="takeaway">Price Per Plate</p>
+    </div>
+    <div class="items-grid">
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/tandoori/tandoori-roti.jpg" alt="Tandoori Roti" />
+        <div class="item-info">
+          <span class="item-name">Tandoori Roti</span>
+          <span class="item-price">₹30</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/tandoori/tandoori-butter-roti.jpg" alt="Tandoori Butter Roti" />
+        <div class="item-info">
+          <span class="item-name">Tandoori Butter Roti</span>
+          <span class="item-price">₹40</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/tandoori/tandoori-naan.jpg" alt="Tandoori Naan" />
+        <div class="item-info">
+          <span class="item-name">Tandoori Naan</span>
+          <span class="item-price">₹40</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/tandoori/tandoori-butter-naan.jpg" alt="Tandoori Butter Naan" />
+        <div class="item-info">
+          <span class="item-name">Tandoori Butter Naan</span>
+          <span class="item-price">₹50</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/tandoori/garlic-naan.jpg" alt="Garlic Naan" />
+        <div class="item-info">
+          <span class="item-name">Tandoori Garlic Naan</span>
+          <span class="item-price">₹50</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/tandoori/kalmi-kebab.jpg" alt="Kalmi Kabab" />
+        <div class="item-info">
+          <span class="item-name">Kalmi Kabab – 2 pcs</span>
+          <span class="item-price">₹150</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/tandoori/chicken-tikka.jpg" alt="Chicken Tikka" />
+        <div class="item-info">
+          <span class="item-name">Chicken Tikka – 5 pcs</span>
+          <span class="item-price">₹150</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/tandoori/malai-chicken-tikka.jpg" alt="Malai Chicken Tikka" />
+        <div class="item-info">
+          <span class="item-name">Malai Chicken Tikka – 5 pcs</span>
+          <span class="item-price">₹150</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/tandoori/achari-chicken-tikka.jpg" alt="Achari Chicken Tikka" />
+        <div class="item-info">
+          <span class="item-name">Achari Chicken Tikka – 5 pcs</span>
+          <span class="item-price">₹150</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/tandoori/tandoori-chicken-joint.jpg" alt="Tandoori Full Joint" />
+        <div class="item-info">
+          <span class="item-name">Tandoori Full Joint – 1 pc</span>
+          <span class="item-price">₹200</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/tandoori/tandoori-half.jpg" alt="Tandoori Half" />
+        <div class="item-info">
+          <span class="item-name">Tandoori Half</span>
+          <span class="item-price">₹300</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/tandoori/tandoori-full.jpg" alt="Tandoori Full" />
+        <div class="item-info">
+          <span class="item-name">Tandoori Full</span>
+          <span class="item-price">₹500</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- BEVERAGES -->
+  <div class="menu-section">
+    <div class="section-header">
+      <h2>Beverages</h2>
+      <p class="takeaway">Price Per Bottle / Glass</p>
+    </div>
+    <div class="items-grid">
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/beverages/water-bottle.jpg" alt="Water" />
+        <div class="item-info">
+          <span class="item-name">Water – 250ml</span>
+          <span class="item-price">₹8</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/beverages/water-bottle.jpg" alt="Water" />
+        <div class="item-info">
+          <span class="item-name">Water – 500ml</span>
+          <span class="item-price">₹10</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/beverages/water-bottle.jpg" alt="Water 1L" />
+        <div class="item-info">
+          <span class="item-name">Water – 1L</span>
+          <span class="item-price">₹20</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/beverages/thums-up.jpg" alt="Thums Up" />
+        <div class="item-info">
+          <span class="item-name">Thums Up</span>
+          <span class="item-price">₹20</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/beverages/cocacola.jpg" alt="Coke" />
+        <div class="item-info">
+          <span class="item-name">Coke</span>
+          <span class="item-price">₹20</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/beverages/sprite.jpg" alt="Sprite" />
+        <div class="item-info">
+          <span class="item-name">Sprite</span>
+          <span class="item-price">₹20</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/beverages/fanta.jpg" alt="Fanta" />
+        <div class="item-info">
+          <span class="item-name">Fanta</span>
+          <span class="item-price">₹20</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/beverages/maaza.jpg" alt="Maaza" />
+        <div class="item-info">
+          <span class="item-name">Maaza</span>
+          <span class="item-price">₹25</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/beverages/pulpy-orange.jpg" alt="Pulpy Orange" />
+        <div class="item-info">
+          <span class="item-name">Pulpy Orange</span>
+          <span class="item-price">₹25</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/beverages/diet-coke.jpg" alt="Diet Coke" />
+        <div class="item-info">
+          <span class="item-name">Diet Coke</span>
+          <span class="item-price">₹40</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/beverages/goli-soda.jpg" alt="Goli Soda" />
+        <div class="item-info">
+          <span class="item-name">Swiss Goli Soda</span>
+          <span class="item-price">₹30</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/beverages/lassi.jpg" alt="Lassi" />
+        <div class="item-info">
+          <span class="item-name">Lassi</span>
+          <span class="item-price">₹40</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/beverages/sweet-lassi.jpg" alt="Sweet Lassi" />
+        <div class="item-info">
+          <span class="item-name">Sweet Lassi</span>
+          <span class="item-price">₹40</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img class="item-thumb" loading="lazy" src="assets/images/menu/beverages/welcome-drink.jpg" alt="Welcome Drink" />
+        <div class="item-info">
+          <span class="item-name">Welcome Drink</span>
+          <span class="item-price">₹30</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- BUFFET -->
+  <div class="menu-section">
+    <div class="section-header">
+      <h2>Buffet</h2>
+      <p class="takeaway">Per Person</p>
+    </div>
+    <div class="buffet-grid">
+      <div class="buffet-item">
+        <div class="buffet-name">Staff Buffet</div>
+        <div class="buffet-price">₹350<span>per person</span></div>
+      </div>
+      <div class="buffet-item">
+        <div class="buffet-name">Silver Buffet</div>
+        <div class="buffet-price">₹750<span>per person</span></div>
+      </div>
+      <div class="buffet-item">
+        <div class="buffet-name">Gold Buffet</div>
+        <div class="buffet-price">₹900<span>per person</span></div>
+      </div>
+      <div class="buffet-item">
+        <div class="buffet-name">Platinum Buffet</div>
+        <div class="buffet-price">₹1050<span>per person</span></div>
+      </div>
+    </div>
+  </div>
+
+</div><!-- end menu-wrapper -->
+
+<hr class="divider" />
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-grid">
+    <div class="footer-col">
+      <h4>Contact</h4>
+      <address>
+        <span class="contact-name">Amrut Kitchen,</span><br />
+        Municipal Employees Colony,<br />
+        Acharya Ranga Nagar,<br />
+        Benz Circle,<br />
+        Vijayawada,<br />
+          Andhra Pradesh 520010<br /><br />
+        E / amrutkitchens@gmail.com<br />
+        T / +91 9849000555
+      </address>
+    </div>
+    <div class="footer-col">
+      <h4>Opening Hours</h4>
+      <p>Monday – Friday<br />11am – 11pm<br /><br />Saturday – Sunday<br />10am – 12am</p>
+      <img class="footer-chef" src="assets/images/logos/food-sticker.webp" alt="Amrut Kitchen Biryani" />
+    </div>
+    <div class="footer-col">
+      <h4>Find Us</h4>
+      <iframe class="map-iframe" title="Amrut Kitchen Location"
+        src="https://maps.google.com/maps?q=Amrut+Kitchen,+Benz+Circle,+Vijayawada,+Andhra+Pradesh&output=embed&z=17"
+        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span class="footer-copy">© 2025 by Amrut Kitchen. Powered and secured by Forefound Solutions</span>
+  </div>
+</footer>
+
+  <script src="assets/js/config.js"></script>
+  <script src="assets/js/menu-prices.js"></script>
+</body>
+</html>

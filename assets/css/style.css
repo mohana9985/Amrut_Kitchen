@@ -1,0 +1,184 @@
+/*
+ * Amrut Kitchen — Shared Stylesheet
+ * ===================================
+ * Used by: index.html, menu.html, about.html, gallery.html, 404.html
+ * Brand colors:
+ *   Gold   → #bf9515
+ *   Black  → #000000
+ *   White  → #ffffff
+ *   Dark   → #2a2a2a (borders/dividers)
+ */
+
+/* ── CUSTOM FONT ─────────────────────────────────────────────────────────── */
+/* Samarkan: decorative font used only for the "amrut kitchen" brand name */
+@font-face {
+  font-family: 'samarkan';
+  src: url('../fonts/samarkan.woff2') format('woff2'),
+       url('../fonts/samarkan.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; /* prevents invisible text during font load */
+}
+
+/* ── RESET ───────────────────────────────────────────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+/* ── BASE ────────────────────────────────────────────────────────────────── */
+body {
+  background-color: #000000;
+  color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.6em;
+}
+
+a { text-decoration: none; color: inherit; }
+
+/* ── HEADER ──────────────────────────────────────────────────────────────── */
+/* Shared across all pages — contains logo, brand name, tagline, nav */
+header {
+  background-color: #000000;
+  padding: 30px 20px 0;
+  text-align: center;
+}
+
+/* Logo + brand name side-by-side */
+.brand {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  margin-bottom: 10px;
+}
+
+/* Chef logo image next to brand name */
+.brand-logo { width: 125px; height: auto; object-fit: contain; }
+
+/* "amrut kitchen" — Samarkan decorative font */
+.brand-name {
+  font-family: 'samarkan', 'Forum', serif;
+  font-size: 56px;
+  font-weight: normal;
+  color: #ffffff;
+  line-height: 1;
+  letter-spacing: 0;
+}
+
+/* "We Prepare Food For The Gods" */
+.tagline {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  color: #ffffff;
+  letter-spacing: 3px;
+  margin-bottom: 26px;
+}
+
+/* ── NAV ─────────────────────────────────────────────────────────────────── */
+nav { border-top: 1px solid #2a2a2a; padding: 18px 0; }
+nav ul { list-style: none; display: flex; justify-content: center; gap: 50px; }
+nav a {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #efefef;
+  padding-bottom: 8px;
+  display: inline-block;
+  transition: color 0.2s;
+}
+nav a:hover { color: #bf9515; }
+/* Active page gets gold underline */
+nav a.active { color: #bf9515; border-bottom: 2px solid #bf9515; }
+
+/* ── DIVIDER ─────────────────────────────────────────────────────────────── */
+/* Thin horizontal rule between content and footer */
+.divider {
+  max-width: 980px;
+  margin: 0 auto;
+  border: none;
+  border-top: 1px solid #2a2a2a;
+}
+
+/* ── FOOTER ──────────────────────────────────────────────────────────────── */
+/* 3-column grid: Contact | Opening Hours | Find Us */
+footer { background-color: #000000; padding: 50px 20px 30px; }
+
+.footer-grid {
+  max-width: 980px;
+  margin: 0 auto 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1.6fr; /* Find Us column is wider for map */
+  gap: 50px;
+}
+
+/* Footer column headings (CONTACT, OPENING HOURS, FIND US) */
+.footer-col h4 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #bf9515; /* gold */
+  margin-bottom: 20px;
+}
+
+/* Footer body text — address, hours */
+.footer-col address,
+.footer-col p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5em;
+  color: #ffffff;
+  font-style: normal; /* overrides browser italic for <address> */
+}
+
+/* "Amrut Kitchen," — slightly larger than address lines */
+.contact-name {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #ffffff;
+  display: block;
+  margin-bottom: 4px;
+}
+
+/* Food sticker image in Opening Hours column */
+.footer-chef {
+  width: 110px;
+  height: 110px;
+  object-fit: contain;
+  border-radius: 50%;
+  margin: 20px auto 0;
+  display: block;
+}
+
+/* Google Maps embed in Find Us column */
+.map-iframe { width: 100%; height: 185px; border: 0; display: block; filter: grayscale(20%); }
+
+/* Bottom bar — copyright */
+.footer-bottom {
+  max-width: 980px;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.footer-copy { font-family: Arial, Helvetica, sans-serif; font-size: 11px; font-weight: 400; color: #5a5a5a; }
+
+/* ── RESPONSIVE ──────────────────────────────────────────────────────────── */
+/* Tablet: stack footer to 2 columns, shrink brand name */
+@media (max-width: 860px) {
+  .brand-name { font-size: 38px; }
+  nav ul { gap: 24px; }
+  .footer-grid { grid-template-columns: 1fr 1fr; }
+}
+
+/* Mobile: single column everything */
+@media (max-width: 540px) {
+  .brand-name { font-size: 28px; }
+  nav ul { gap: 16px; flex-wrap: wrap; }
+  .footer-grid { grid-template-columns: 1fr; }
+}
