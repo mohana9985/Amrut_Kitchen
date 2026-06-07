@@ -1,0 +1,190 @@
+S.No,Item Name,Price (₹),Category
+1,Tomato Soup,100,Veg Soups
+2,Sweet Corn Soup,100,Veg Soups
+3,Veg Manchow,100,Veg Soups
+4,Veg Hot & Sour,100,Veg Soups
+5,Lemon Coriander Soup,100,Veg Soups
+6,Cream of Mushroom,100,Veg Soups
+7,Veg Corn Soup,100,Veg Soups
+8,Green Salad,75,Salads & Snacks
+9,Palli Masala,75,Salads & Snacks
+10,Masala Papad (2 pcs),75,Salads & Snacks
+11,Onion Pakoda,100,Salads & Snacks
+12,French Fries,100,Salads & Snacks
+13,Veg Rolls (10 pcs),150,Salads & Snacks
+14,Veg Lollipops (10 pcs),150,Salads & Snacks
+15,Veg Cutlets (10 pcs),150,Salads & Snacks
+16,Veg Fingers (10 pcs),150,Salads & Snacks
+17,Potto Cheese Balls (10 pcs),150,Salads & Snacks
+18,Aloo Tiki (10 pcs),150,Salads & Snacks
+19,Har Bhar Kabab (10 pcs),150,Salads & Snacks
+,Veg Satay,150,Salads & Snacks
+20,Boiled Corn,100,Corn Items
+21,Corn Rolls (10 pcs),150,Corn Items
+22,Veg Manchuria,150,Corn Items
+23,Crispy Veg,150,Corn Items
+24,Crispy Corn,150,Corn Items
+25,Gobi Manchuria,150,Gobi Items
+26,Gobi-65,150,Gobi Items
+27,Chilli Gobi,150,Gobi Items
+28,Baby Corn Manchuria,150,Baby Corn Items
+29,Baby Corn-65,150,Baby Corn Items
+30,Baby Corn Chilli,150,Baby Corn Items
+31,Crispy Baby Corn,150,Baby Corn Items
+32,Golden Fried Baby Corn,150,Baby Corn Items
+33,Mushroom Manchuria,150,Mushroom Items
+34,Mushroom-65,150,Mushroom Items
+35,Mushroom Chilli,150,Mushroom Items
+36,Loose Mushroom,150,Mushroom Items
+37,Mushroom Pakoda,150,Mushroom Items
+38,Butter Garlic Mushroom,150,Mushroom Items
+39,Paneer Rolls (10 pcs),200,Paneer Items
+40,Paneer Manchuria,250,Paneer Items
+41,Paneer-65,250,Paneer Items
+42,Paneer Chilli,250,Paneer Items
+43,Crispy Paneer,250,Paneer Items
+44,Paneer Stick (10 pcs),250,Paneer Items
+45,Honey Lemon Paneer,250,Paneer Items
+46,Boiled Eggs (2 pcs),30,Egg Items
+47,Masala Omelet,80,Egg Items
+48,Cheese Omelet,100,Egg Items
+49,Chilli Egg,150,Egg Items
+50,Egg Manchuria,150,Egg Items
+51,Egg-65,150,Egg Items
+52,Veg Noodles,100,Noodles
+53,Egg Noodles,130,Noodles
+54,Schezwan Noodles,150,Noodles
+55,Plain Rice,50,Rice
+56,Jeera Rice,125,Rice
+57,Tomato Rice,125,Rice
+58,Veg Fried Rice,125,Rice
+59,Egg Fried Rice,150,Rice
+60,Paneer Rice,175,Rice
+61,Curd Rice,100,Rice
+62,Plain Curd,20,Dairy
+63,Daal Fry,175,Dal & Veg Curries
+64,Daal Dhadka,175,Dal & Veg Curries
+65,Daal Makhani,175,Dal & Veg Curries
+66,Plain Palak,175,Dal & Veg Curries
+67,Aloo Palak,175,Dal & Veg Curries
+68,Palak Paneer,175,Dal & Veg Curries
+69,Chenna Masala,175,Dal & Veg Curries
+70,Aloo Chenna Masala,175,Dal & Veg Curries
+71,Mushroom Curry,175,Dal & Veg Curries
+72,Aloo Matar Curry,175,Dal & Veg Curries
+73,Kadai Veg Curry,175,Dal & Veg Curries
+74,Mixed Veg Curry,175,Dal & Veg Curries
+75,Tomato Cashews Curry,250,Dal & Veg Curries
+76,Malai Kofta,250,Dal & Veg Curries
+77,Paneer Butter Masala,250,Dal & Veg Curries
+78,Methi Chaman,250,Dal & Veg Curries
+79,Kadai Paneer Curry,250,Dal & Veg Curries
+80,Egg Burji,125,Egg Curries
+81,Egg Curry,150,Egg Curries
+82,Egg Palak,175,Egg Curries
+83,Chicken Sweet Corn Soup,125,Non-Veg Soups
+84,Chicken Manchow Soup,125,Non-Veg Soups
+85,Chicken Hot & Sour Soup,125,Non-Veg Soups
+86,Cream of Chicken Soup,125,Non-Veg Soups
+87,Chicken Lemon Coriander Soup,,Non-Veg Soups
+88,Chicken Noodles,150,Noodles
+89,Schezwan Chicken Noodles,200,Noodles
+90,Mixed Non Veg Noodles,250,Noodles
+91,SP Chicken Noodles,250,Noodles
+92,Chilli Chicken,250,Chicken Starters
+93,Paper Chicken,250,Chicken Starters
+94,Chicken-65,250,Chicken Starters
+95,Chicken Manchuria,250,Chicken Starters
+96,Chicken-555,250,Chicken Starters
+97,Chicken Majestic,250,Chicken Starters
+98,RR Chicken,250,Chicken Starters
+99,Crispy Chicken,250,Chicken Starters
+100,Rajadhani Chicken,250,Chicken Starters
+101,Lemon Chicken,250,Chicken Starters
+102,Dragon Chicken,250,Chicken Starters
+103,Loose Chicken,250,Chicken Starters
+104,Chicken Garlic/Ginger,250,Chicken Starters
+105,Schezwan Chicken,250,Chicken Starters
+106,Chicken Pakoda,250,Chicken Starters
+107,Cashew Chicken,250,Chicken Starters
+108,Chicken Drumsticks (4 pcs),250,Chicken Starters
+109,Chicken Wings (5 pcs),250,Chicken Starters
+110,Chicken Lollipop (5 pcs),250,Chicken Starters
+111,Amrut Chicken,250,Chicken Starters
+112,Apollo Crispy Fish,300,Fish & Prawns
+113,Chilli Apollo Fish,300,Fish & Prawns
+114,Apollo Fry,300,Fish & Prawns
+115,Tawa Fish Fry (4 pcs),300,Fish & Prawns
+116,Apollo Fish Curry,300,Fish & Prawns
+117,Loose Prawns,325,Fish & Prawns
+118,Chilli Prawns,325,Fish & Prawns
+119,Prawns-65,325,Fish & Prawns
+120,Prawns Curry,350,Fish & Prawns
+121,Methi Chicken Curry,275,Chicken Curries
+122,Butter Chicken Curry,275,Chicken Curries
+123,Kadai Chicken Curry,275,Chicken Curries
+124,Afghani Chicken Curry,275,Chicken Curries
+125,Maharani Chicken Curry,275,Chicken Curries
+126,Kolhapuri Chicken Curry,275,Chicken Curries
+127,Dum Chicken Curry,275,Chicken Curries
+128,Malai Chicken Curry,275,Chicken Curries
+129,Punjabi Chicken Curry,275,Chicken Curries
+130,Kaju Chicken Curry,275,Chicken Curries
+131,SP Chicken Curry,275,Chicken Curries
+132,Chicken Kallimirchi (Bones),275,Chicken Curries
+133,Natukodi Curry,350,Natukodi
+134,Natukodi Fry,400,Natukodi
+135,Mutton Curry,400,Mutton
+136,Mutton Fry,450,Mutton
+137,Mutton Keema Curry,500,Mutton
+138,Chicken Fried Rice,170,Non-Veg Fried Rice
+139,Schezwan Chicken Fried Rice,180,Non-Veg Fried Rice
+140,Mixed Non Veg Fried Rice,200,Non-Veg Fried Rice
+141,Prawns Fried Rice,250,Non-Veg Fried Rice
+142,Chicken Dum Biryani (3 pcs),250,Biryani
+143,Chicken Fry Biryani,275,Biryani
+144,SP Chicken Biryani,300,Biryani
+145,Chicken Wings Biryani (4 pcs),300,Biryani
+146,Mutton Dum Biryani,450,Biryani
+147,Mutton Fry Biryani,500,Biryani
+148,SP Mutton Biryani,500,Biryani
+149,Mutton Keema Biryani,600,Biryani
+150,Fish Biryani,300,Biryani
+151,Prawns Biryani,400,Biryani
+152,Water 250ML,8,Beverages
+153,Water 500ML,10,Beverages
+154,Water 1L,20,Beverages
+155,Thums Up,20,Beverages
+156,Spirit,20,Beverages
+157,Coke,20,Beverages
+158,Fanta,20,Beverages
+159,Maaza,25,Beverages
+160,Pulpy Orange,25,Beverages
+161,Sweet Lassi,40,Beverages
+162,Swiss Goli Soda,30,Beverages
+163,Diet Coke,40,Beverages
+164,Kinley Soda,12,Beverages
+165,Lemon Soda,30,Beverages
+166,Chocobar,10,Ice Cream
+167,Vanilla Cup,10,Ice Cream
+168,Butter Scotch Cup,10,Ice Cream
+170,Pulka,15,Indian Breads
+171,Chapati,30,Indian Breads
+172,Parota,30,Indian Breads
+173,Tandoori Roti,30,Indian Breads
+174,Tandoori Butter Roti,40,Indian Breads
+175,Tandoori Naan,40,Indian Breads
+176,Tandoori Butter Naan,50,Indian Breads
+177,Tandoori Garlic Naan,50,Indian Breads
+178,Kalmi Kabab (2 pcs),150,Tandoori
+179,Chicken Tikka (5 pcs),150,Tandoori
+180,Harali Tikka (5 pcs),150,Tandoori
+181,Malai Tikka (5 pcs),150,Tandoori
+182,Achari Tikka (5 pcs),150,Tandoori
+183,Tandoori Full Joint (1 pc),200,Tandoori
+184,Tandoori Half,300,Tandoori
+185,Tandoori Full,500,Tandoori
+,Silver Buffet,750,Buffet
+,Gold Buffet,900,Buffet
+,Platinum Buffet,1050,Buffet
+,Staff Buffet,350,Buffet

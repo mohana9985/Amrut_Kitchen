@@ -1,63 +1,55 @@
 /*
  * Amrut Kitchen – Dynamic Menu Prices
- * -------------------------------------
- * Fetches Item|Price from a published Google Sheet CSV.
- * If the sheet is unavailable, HTML fallback prices remain unchanged.
- *
- * SETUP:
- *   1. Open your Google Sheet
- *   2. File → Share → Publish to web → Sheet1 → CSV → Publish
- *   3. Copy the URL and replace SHEET_CSV_URL below
+ * CSV columns: S.No, Item Name, Price (₹), Category
+ * If sheet unavailable, HTML fallback prices remain unchanged.
  */
 
 (function () {
-  // Read URL from config.js (gitignored — never hardcode here)
   var SHEET_CSV_URL = (typeof AMRUT_CONFIG !== 'undefined') ? AMRUT_CONFIG.sheetUrl : '';
-
-  // If config.js missing or URL not set, silently exit — HTML prices remain
   if (!SHEET_CSV_URL || SHEET_CSV_URL.indexOf('REPLACE') === 0) return;
+
+  function normalize(str) {
+    return str.toLowerCase()
+      .replace(/[–\-]/g, ' ')
+      .replace(/\([^)]*\)/g, '')
+      .replace(/[^a-z0-9 ]/g, '')
+      .replace(/\s+/g, ' ')
+      .trim();
+  }
 
   function parseCSV(text) {
     var prices = {};
     var lines = text.split('\n');
+    // Columns: S.No, Item Name, Price (₹), Category
     for (var i = 1; i < lines.length; i++) {
-      var line = lines[i].trim();
-      if (!line) continue;
-      var item, price;
-      if (line.charAt(0) === '"') {
-        var endQuote = line.indexOf('"', 1);
-        item = line.substring(1, endQuote);
-        price = line.substring(endQuote + 2).replace(/^"|"$/g, '').trim();
-      } else {
-        var comma = line.indexOf(',');
-        if (comma === -1) continue;
-        item = line.substring(0, comma).trim();
-        price = line.substring(comma + 1).replace(/^"|"$/g, '').trim();
+      var cols = lines[i].split(',');
+      if (cols.length < 3) continue;
+      var name = cols[1].replace(/^"|"$/g, '').trim();
+      var price = cols[2].replace(/^"|"$/g, '').trim();
+      if (name && price && !isNaN(price)) {
+        prices[normalize(name)] = '₹' + price;
       }
-      if (item && price) prices[item.toLowerCase()] = price;
     }
     return prices;
   }
 
   function applyPrices(prices) {
-    // Regular menu items
     document.querySelectorAll('.menu-item').forEach(function (card) {
       var nameEl = card.querySelector('.item-name');
       var priceEl = card.querySelector('.item-price');
       if (!nameEl || !priceEl) return;
-      var val = prices[nameEl.textContent.trim().toLowerCase()];
-      if (val) priceEl.textContent = val;
+      var key = normalize(nameEl.textContent.trim());
+      if (prices[key]) priceEl.textContent = prices[key];
     });
 
-    // Buffet items
     document.querySelectorAll('.buffet-item').forEach(function (card) {
       var nameEl = card.querySelector('.buffet-name');
       var priceEl = card.querySelector('.buffet-price');
       if (!nameEl || !priceEl) return;
-      var val = prices[nameEl.textContent.trim().toLowerCase()];
-      if (val) {
+      var key = normalize(nameEl.textContent.trim());
+      if (prices[key]) {
         var span = priceEl.querySelector('span');
-        priceEl.innerHTML = val + (span ? span.outerHTML : '');
+        priceEl.innerHTML = prices[key] + (span ? span.outerHTML : '');
       }
     });
   }
@@ -66,5 +58,5 @@
   fetch(SHEET_CSV_URL + sep + 't=' + Date.now())
     .then(function (r) { return r.text(); })
     .then(function (csv) { applyPrices(parseCSV(csv)); })
-    .catch(function () { /* sheet unavailable — HTML prices remain as fallback */ });
+    .catch(function () {});
 })();
