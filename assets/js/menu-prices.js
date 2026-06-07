@@ -54,8 +54,7 @@
     });
   }
 
-  var sep = SHEET_CSV_URL.indexOf('?') > -1 ? '&' : '?';
-  fetch(SHEET_CSV_URL + sep + 't=' + Date.now())
+  fetch(SHEET_CSV_URL, { cache: 'no-store' })
     .then(function (r) { return r.text(); })
     .then(function (csv) { applyPrices(parseCSV(csv)); })
     .catch(function () {});
