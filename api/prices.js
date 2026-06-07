@@ -5,7 +5,9 @@ export default async function handler(req, res) {
   try {
     const response = await fetch(sheetUrl, { cache: 'no-store' });
     const csv = await response.text();
-    res.setHeader('Cache-Control', 'no-store, max-age=0');
+    res.setHeader('Cache-Control', 'no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0, s-maxage=0');
+    res.setHeader('Surrogate-Control', 'no-store');
+    res.setHeader('Pragma', 'no-cache');
     res.setHeader('Content-Type', 'text/csv');
     res.status(200).send(csv);
   } catch {
