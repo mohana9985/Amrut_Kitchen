@@ -5,9 +5,6 @@
  */
 
 (function () {
-  var SHEET_CSV_URL = (typeof AMRUT_CONFIG !== 'undefined') ? AMRUT_CONFIG.sheetUrl : '';
-  if (!SHEET_CSV_URL || SHEET_CSV_URL.indexOf('REPLACE') === 0) return;
-
   function normalize(str) {
     return str.toLowerCase()
       .replace(/[–\-]/g, ' ')
@@ -54,7 +51,7 @@
     });
   }
 
-  fetch(SHEET_CSV_URL, { cache: 'no-store' })
+  fetch('/api/prices', { cache: 'no-store' })
     .then(function (r) { return r.text(); })
     .then(function (csv) { applyPrices(parseCSV(csv)); })
     .catch(function () {});

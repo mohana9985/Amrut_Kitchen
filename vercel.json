@@ -1,6 +1,4 @@
 {
   "cleanUrls": true,
-  "trailingSlash": false,
-  "buildCommand": "echo \"const AMRUT_CONFIG = { sheetUrl: '${SHEET_CSV_URL}' };\" > assets/js/config.js",
-  "outputDirectory": "."
+  "trailingSlash": false
 }
